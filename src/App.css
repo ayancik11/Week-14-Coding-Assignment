@@ -1,38 +1,175 @@
+#background-image {
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fmovie-cinema-screen-background-template-vector-23192193&psig=AOvVaw1ftBL86oBZBCVDt1eQN1Gd&ust=1675003498993000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMj5obXA6vwCFQAAAAAdAAAAABAE"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  background-attachment: fixed;
+}
+
+#body-header {
+  background: white;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 999;
+}
+
+body {
+  padding-top: 70px;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+  font-size: 25px;
+}
+
+.container-fluid {
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 0px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#movie-card {
+  margin-bottom: 0px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-header {
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#synopsis {
+  height: 140px;
+  display: flex;
+}
+
+.card-footer {
+  align-content: flex-start;
+}
+
+#genre {
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: default;
+  margin-bottom: 5px;
+  width: 50%;
+  align-self: center;
+}
+
+.btn-light:not([disabled]):not(.disabled):hover {
+  color: #111 !important;
+  background-color: #f8f9fa !important;
+}
+
+#review-name {
+  text-shadow: #333;
+  font-style: oblique;
+  text-align: center;
+}
+
+#name {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li::marker {
+  content: "";
+  font-size: 1.2em;
+}
+
+#stars {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 25px;
+}
+.on {
+  color: rgb(240, 223, 66);
+}
+.off {
+  color: #ccc;
+}
+
+img {
+  width: 280px;
+  height: 400px;
+}
+
+#reviews {
+  text-align: left;
+}
+
+#review-list {
+  text-align: left;
+}
+
+#reviews-card {
+  flex-direction: column;
+  text-align: left;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#submit {
+  margin-top: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.form {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 90%;
+  text-align: left;
 }
 
-.App-link {
-  color: #61dafb;
+#review-header {
+  text-indent: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#movie {
+  padding-bottom: 40px;
 }
